@@ -14,9 +14,6 @@ RUN yarn
 # 나머지 모두 복사
 COPY . .
 
-# 빌드하는 부분 추가
-RUN yarn build 
-
 # 도커 컨테이너에 접근할 수 있게 포트 열어주기
 EXPOSE 3000
 
